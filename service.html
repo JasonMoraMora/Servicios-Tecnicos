@@ -50,14 +50,17 @@
         }
     </script>
     <!--/-->
-
+    
     <!--Servicios-->
     <section id="servicios" class="w3-container w3-small">
+        <p class="w3-medium">Dentro de nuestros servicios, ofrecemos todo tipo de servicios que sean tecnicos desde reparar un gadged hasta crear un sistema de red con niveles de seguridad entre usuarios y administrador</p>
+
         <!--SubTitle-->
-        <h2 class="subtitle">Nuestros <b>Servicios</b></h2>
+        <h2 class="title w3-text-green"><b>Servicios</b></h2>
         <br>
-        <!--Servicios-->
+        
         <div class="w3-row">
+            
             <!--Servicio-->
             <div class="w3-col l4 m6 s12 w3-margin-bottom w3-row services">
                 <div class="w3-col w3-center" style="width: 50px;">
@@ -125,50 +128,38 @@
                 </div>
             </div>            
         </div>                        
-    </section>        
-    <!--/-->
-
-    <!--Soluciones-->
-    <section id="soluciones" class="w3-container w3-pale-green w3-row">              
-        <div class="w3-col l9 m9 s12">
-            <p>
-                <p class="subtitle w3-xlarge w3-text-blue-gray">Somos buenos en lo que hacemos</p>                
                 
-                <span class="w3-xlarge w3-text-black">Por que Elegirnos?</span>
-                <br>
-                <span class="w3-text-gray">Diagnosticamos y reparamos cualquier tipo de problema digital, aun asi este ya exista o sea un problema a futuro</span> 
-                <br><br>
-            </p>
-        </div>        
-    </section>
-    <!--/-->
-
-    <!--Contacto-->
-    <section id="contacto" class="w3-container w3-dark-gray">
-        <h2 class="subtitle w3-text-green"><b>Contactanos</b></h2>
-        <p><b>Telefono: </b>1-433-1310</p>
-        <p><b>Atencion: </b>1p.m. to 6p.m.</p>
-        <p><b>Email: </b>jasonmoramora@outlook.com</p>
-        <p><b>Direccion: </b>Av. manco capac 749 int-4</p>
-    </section>
-
-    <!--Ubicacion-->
-    <div id="map" style="width:100%;height:300px"></div>
-    <script>
-        function myMap() {
-        var mapCanvas = document.getElementById("map");
-        var myCenter = new google.maps.LatLng(-12.067816, -77.028430); 
-        var mapOptions = {center: myCenter, zoom: 10};
-        var map = new google.maps.Map(mapCanvas,mapOptions);
-        var marker = new google.maps.Marker({
-            position: myCenter,
-            animation: google.maps.Animation.BOUNCE
-        });
-        marker.setMap(map);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTkwFTgcr4wO_80sF5Rk1xbz7e_ZuvL5M&callback=myMap" async defer></script>            
-
+        <div class="w3-container">
+            <p class="w3-xlarge title">Especialistas en el tech</p>
+            <p>En el servicio de soporte tecnico incluimos los siguientes servicios de manera adicional</p>
+            <div class="w3-row-padding">
+                <div class="w3-col l4 m12 s12 ">
+                    <div class="w3-card-2 w3-margin-bottom">
+                        <img src="tech1.jpg" alt="" style="width:100%; height:auto">
+                        <div class="w3-container w3-center">
+                            <p>Soporte tecnico y mantenimiento de Computadores, laptops, notebooks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l4 m12 s12 ">
+                    <div class="w3-card-2 w3-margin-bottom">
+                        <img src="tech2.jpg" alt="" style="width:100%; height:auto">
+                        <div class="w3-container w3-center">
+                            <p>Cambio y empastado de refrigerantes a los circuitos integrados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l4 m12 s12 ">
+                    <div class="w3-card-2 w3-margin-bottom">
+                        <img src="tech3.jpg" alt="" style="width:100%; height:auto">
+                        <div class="w3-container w3-center">
+                            <p>Chequeo de estado de los discos duros para evitar perdida de informacion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    <!--/--> 
     <!--Redes sociales-->
     <div class="w3-container w3-center w3-dark-gray">
         <b><p class="w3-xlarge">Redes Sociales</p></b>
